@@ -1,0 +1,202 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Botão padrão customizado */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Previne herença do `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Estrutura base
+ */
+
+html,
+body {
+    height: 100%;
+
+}
+
+
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  overflow-x: hidden;
+}
+
+.cover-container {
+  max-width: 90%;
+  max-height: fit-content;
+}
+
+/*MINHAS ALTERAÇÕES*/
+html{
+  scroll-behavior: smooth;
+}
+#imagem-fundo{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+
+.list-group-item-dark{
+  color: white;
+  background-color: #2e2e2e;
+  border: 6px 6px;
+  border-color: white;
+ }
+.list-group{
+  border-radius: 6px;
+  box-shadow: 0.5px 1.5px 8px 1px whitesmoke  ;
+}
+strong{
+  box-shadow: 0px 2px 0px 0px white;
+}
+#table-permi-01{
+  margin-top: 140px;
+}
+.table{
+  border-radius: 8px;
+  box-shadow: 0.5px 1.5px 16px 1px rgb(0, 110, 255);
+}
+#nav01{
+  margin-bottom: 140px;
+}
+#icon_center{
+  margin-left: 185px;
+  max-width: 8.6%;
+  max-height: 8.6%;
+}
+/*SCROLL BAR*/
+body::-webkit-scrollbar-track {
+  background: #333 ;        /* area de tracking, cor*/
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(12, 114, 247);    /* cor do scrollbar thumb*/
+  border-radius: 20px;       /* bordas curvas */
+  border: 1px transparent #534d4d;  /* criar padding ao redor */
+}
+body::-webkit-scrollbar {
+  width: 7px;               /* width*/
+}
+/*
+ * Cabeçalho
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  text-shadow: 2px 2px 20px#fff;
+  box-shadow: 0px 3px 0px 0px whitesmoke;
+  border-bottom-color:   #fff;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Capa
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+/*Ettore edições a partir daqui: */
+
+
+/*Edições da lista que fica logo debaixo da tabela.*/
+#lista1{
+  text-align: left;
+  color: #fff;
+}
+
+
+#divlista1{
+  margin-left: 40px;
+}
+
+/*só pra deixar os p mais bonitinho: */
+p{
+  text-align: justify;
+}
+
+/*arrumando umas margens:*/
+#txtPE{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#tabelaPE{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#textoelista{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#maistexto{
+  margin-left: 10%;
+  margin-right: 10%;
+}
